@@ -20,6 +20,7 @@ frontend/dist/
 backend/dist/
 build/
 *.egg-info/
+logs/
 
 # Test and tool caches
 .pytest_cache/
