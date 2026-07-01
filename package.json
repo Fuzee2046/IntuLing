@@ -1,0 +1,16 @@
+{
+  "name": "intuling",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "pnpm --dir frontend dev",
+    "dev:api": "uv --directory backend run uvicorn intuling_api.main:app --reload --host 127.0.0.1 --port 8000",
+    "build:web": "pnpm --dir frontend build",
+    "test:web": "pnpm --dir frontend test",
+    "test:api": "uv --directory backend run pytest",
+    "lint:web": "pnpm --dir frontend lint",
+    "lint:api": "uv --directory backend run ruff check .",
+    "format:api": "uv --directory backend run ruff format .",
+    "migrate:api": "uv --directory backend run alembic upgrade head"
+  }
+}
