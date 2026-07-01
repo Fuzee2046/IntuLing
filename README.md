@@ -1,6 +1,8 @@
 # IntuLing
 
-IntuLing 是一个面向英语学习的 AI Agent Web 应用。当前仓库只搭建基础工程架构，业务模块会在后续逐个规划和实现。
+IntuLing is an AI English learning Agent web application. It is designed to turn AI chat output into structured learning assets such as grammar notes, vocabulary items, collocations, and review tasks.
+
+当前仓库已经搭建基础工程架构，业务模块会在后续逐个规划和实现。
 
 ## Tech Stack
 
@@ -48,4 +50,3 @@ pnpm dev:web
 - 功能分支建议使用 `feat/<topic>`，修复分支建议使用 `fix/<topic>`。
 - 提交信息可以使用中文，例如：`初始化项目基础架构`。
 - 每个模块正式开发前先单独规划，再进入实现。
-
