@@ -9,7 +9,7 @@ IntuLing is an AI English learning Agent web application. It is designed to turn
 - Frontend: React, Vite, TypeScript, Tailwind CSS, React Router, TanStack Query, lucide-react
 - Backend: FastAPI, SQLAlchemy 2, Alembic, PostgreSQL, Pydantic Settings
 - AI: LangChain, langchain-deepseek, langchain-openai
-- Package managers: pnpm, uv
+- Package managers: npm, uv
 
 ## Local Setup
 
@@ -32,14 +32,14 @@ Copy-Item frontend\.env.example frontend\.env
 4. 执行数据库迁移：
 
 ```powershell
-pnpm migrate:api
+npm run migrate:api
 ```
 
 5. 启动开发服务：
 
 ```powershell
-pnpm dev:api
-pnpm dev:web
+npm run dev:api
+npm run dev:web
 ```
 
 前端默认运行在 http://localhost:5173，后端默认运行在 http://localhost:8000。
